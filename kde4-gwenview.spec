@@ -4,7 +4,7 @@
 
 Summary:	K Desktop Environment - Simple image viewer
 Summary(pl.UTF-8):	K Desktop Environment - Prosta przeglądarka obrazków
-Name:		gwenview
+Name:		kde4-gwenview
 Version:	4.8.0
 Release:	1
 License:	GPL
@@ -18,7 +18,7 @@ BuildRequires:	libjpeg-devel
 BuildRequires:	libkipi-devel >= %{version}
 BuildRequires:	shared-desktop-ontologies-devel
 BuildRequires:	soprano-devel
-Obsoletes:	kde4-kdegraphics-gwenview < 4.6.99
+Obsoletes:	gwenview < 4.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
