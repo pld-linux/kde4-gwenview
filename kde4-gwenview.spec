@@ -5,12 +5,12 @@
 Summary:	K Desktop Environment - Simple image viewer
 Summary(pl.UTF-8):	K Desktop Environment - Prosta przeglądarka obrazków
 Name:		kde4-gwenview
-Version:	4.8.4
+Version:	4.9.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	7bf1adf1c24aed4e2e1400d5e443a685
+# Source0-md5:	505231de40d2c3ea220a150ba4c39d2c
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdebase-devel
 BuildRequires:	kde4-kdelibs-devel
@@ -66,13 +66,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/libgwenviewlib.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libgwenviewlib.so.?
 %attr(755,root,root) %{_libdir}/kde4/gvpart.so
-%dir %{_datadir}/apps/gwenview
-%dir %{_datadir}/apps/gwenview/cursors
-%{_datadir}/apps/gwenview/cursors/zoom.png
-%{_datadir}/apps/gwenview/fullscreenthemes
-%{_datadir}/apps/gwenview/gwenviewui.rc
-%dir %{_datadir}/apps/gvpart
-%{_datadir}/apps/gvpart/gvpart.rc
+%{_datadir}/apps/gwenview
+%{_datadir}/apps/gvpart
 %{_datadir}/kde4/services/gvpart.desktop
 %{_datadir}/kde4/services/ServiceMenus/slideshow.desktop
 %{_desktopdir}/kde4/gwenview.desktop
