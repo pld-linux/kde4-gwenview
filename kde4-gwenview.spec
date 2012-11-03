@@ -1,16 +1,16 @@
 %define		_state		stable
 %define		orgname		gwenview
-%define		qtver		4.8.1
+%define		qtver		4.8.3
 
 Summary:	K Desktop Environment - Simple image viewer
 Summary(pl.UTF-8):	K Desktop Environment - Prosta przeglądarka obrazków
 Name:		kde4-gwenview
-Version:	4.9.2
+Version:	4.9.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	3f3721dcf7eaf9f4b099e26e63ea385b
+# Source0-md5:	95323d433a1c9b38b917dd3a743aefa1
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdebase-devel
 BuildRequires:	kde4-kdelibs-devel
