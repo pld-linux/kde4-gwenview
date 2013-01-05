@@ -5,12 +5,12 @@
 Summary:	K Desktop Environment - Simple image viewer
 Summary(pl.UTF-8):	K Desktop Environment - Prosta przeglądarka obrazków
 Name:		kde4-gwenview
-Version:	4.9.4
+Version:	4.9.5
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	ecd4d87d33e33ceffac527fc5e70b869
+# Source0-md5:	d81c71f953f7c41dce19c8c3df338ebf
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdebase-devel
 BuildRequires:	kde4-kdelibs-devel
