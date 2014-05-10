@@ -16,6 +16,7 @@ BuildRequires:	kde4-kactivities-devel >= %{version}
 BuildRequires:	kde4-kdebase-devel >= %{version}
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	libjpeg-devel
+BuildRequires:	kde4-libkdcraw-devel >= %{version}
 BuildRequires:	kde4-libkipi-devel >= %{version}
 BuildRequires:	shared-desktop-ontologies-devel
 BuildRequires:	soprano-devel
