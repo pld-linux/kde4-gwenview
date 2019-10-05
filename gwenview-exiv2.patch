@@ -15,7 +15,6 @@ diff -ur gwenview-4.14.3/CMakeLists.txt gwenview-4.14.3-exiv2/CMakeLists.txt
  
  macro_optional_find_package(Kipi)
  macro_log_feature(KIPI_FOUND "libkipi" "Provides various image manipulation and export features" "http://www.kipi-plugins.org" FALSE)
-Only in gwenview-4.14.3-exiv2: CMakeLists.txt~
 diff -ur gwenview-4.14.3/lib/exiv2imageloader.h gwenview-4.14.3-exiv2/lib/exiv2imageloader.h
 --- gwenview-4.14.3/lib/exiv2imageloader.h	2014-09-30 11:11:42.000000000 +0200
 +++ gwenview-4.14.3-exiv2/lib/exiv2imageloader.h	2019-03-03 12:59:49.629697780 +0100
@@ -27,3 +26,13 @@ diff -ur gwenview-4.14.3/lib/exiv2imageloader.h gwenview-4.14.3-exiv2/lib/exiv2i
  #include <exiv2/image.hpp>
  
  // Local
+--- gwenview-4.14.3/lib/imagemetainfomodel.cpp~	2014-09-30 11:11:42.000000000 +0200
++++ gwenview-4.14.3/lib/imagemetainfomodel.cpp	2019-10-05 18:31:19.040146742 +0200
+@@ -33,6 +33,7 @@
+ #include <exiv2/exif.hpp>
+ #include <exiv2/image.hpp>
+ #include <exiv2/iptc.hpp>
++#include <exiv2/exiv2.hpp>
+ 
+ // Local
+ 
